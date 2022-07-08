@@ -1,0 +1,51 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+
+.register__Logo {
+    color: black;
+}
+
+.register__contain {
+    margin-top: 20px;
+    padding: 40px 40px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.register__contain > input {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    line-height: 22px;
+}
+
+.register__contain > h5 {
+    color: rgb(64, 59, 59);
+    font-weight: 600;
+}
+
+.register__contain > .register__button {
+    line-height: 22px;
+    text-align: center;
+    background-color: orange;
+    border: none;
+    border-radius: 27px;
+    margin-top: 20px;
+}
+
+.register__login__button {
+    margin-top: 33px;
+    line-height: 22px;
+    width: 100%;
+    text-align: center;
+    background-color: lightgray;
+    border: none;
+    border-radius: 27px;
+}
