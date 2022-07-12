@@ -1,0 +1,128 @@
+.home {
+  width: 100vw;
+}
+
+.profile__container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 4px;
+}
+
+.profile__container > p {
+  margin-left: 10px;
+  font-weight: 900;
+}
+
+.profile__container > p > span {
+  margin-left: 20px;
+
+  display: flex;
+}
+
+
+.task__post {
+    width: 100vw;
+    
+}
+
+.task__post__container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+
+}
+
+.task__post__details {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: orange;
+}
+
+.task__post__details > h3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.task__post__details > p {
+    display: flex;
+    font-size: 14;
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+
+.task__post__details > button {
+    width: 20px;
+    justify-content: center;
+    align-self: flex-end;
+    background-color: red;
+    border: none;
+    padding: 2px 4px;
+    color: #fff;
+}
+
+
+
+
+.adding__button {
+  position: absolute;
+  width: 50px;
+  bottom: 20px;
+  right: 10px;
+
+  max-width: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  border-radius: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+}
+
+.adding__button > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 27px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.adding__task__form {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 40%;
+    left: 40%;
+    margin: 20px 20px;
+    padding: 10px 13px;
+    
+    background-color: orange;
+}
+
+.adding__task__form > input {
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 20%;
+    border: none;
+    line-height: 27px;
+    padding: 5px;
+}
+
+.adding__task__form > button {
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+}
